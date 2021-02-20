@@ -1,0 +1,187 @@
+/* css */
+html, body {
+    color: 	#555555;
+    margin: 0;
+}
+
+
+.navbar { 
+    height: 50px;
+    margin-top: -45px;
+    float:right;
+    
+    
+}
+
+.navbar > a {
+    height:30px;    
+    display: inline-block;
+    margin-right: 20px;
+    color: 	#555555;  
+    
+}
+
+.github {
+    height: 25px;
+    width: 25px;
+    border-radius: 15px;
+}
+
+.header {
+    display: inline-block;
+    margin-left: 1110px;
+    width: 140px;
+    height: 52px;
+
+}          
+
+
+.header > a {
+    height:30px;    
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+}  
+
+.header > a:hover {
+    text-decoration: underline;
+}
+
+.logos {
+    margin: 0 auto;
+    width: 300px;
+}
+
+input {
+    height: 40px;
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #dcdcdc;
+    outline: 0px solid transparent;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-left: 1px solid transparent;
+   
+    
+
+}
+
+#searchicon {
+    position: relative;
+    left: 380px;
+    top: 44px;
+    width:51px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius:20px;
+    border-right: 0px solid transparent;
+    
+}
+
+
+#voice {
+
+    position: relative;
+    left: 870px;
+    top: -45px;
+    width:51px;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    border: 0px solid transparent;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+
+.clickbuttons {
+    margin: 0 auto;
+    width:900px;
+    text-align: center;
+    height: 100px;
+}
+.searchme {
+    background-color: #F5F5F5;
+    height: 35px;
+    width: 130px;
+    border: 0px solid transparent;
+    color: 	#555555;
+    cursor:pointer;
+    border-radius: 3px;
+
+}
+
+.searchme:hover {
+
+    background-color: #F5F5F5;
+    border: 1px solid #dcdcdc;
+    border-radius: 3px;
+}
+
+#lang {
+    color: black;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+#lang > a {
+    color: #333399;
+    display: inline-block;
+    padding: 3px;
+}
+
+.footer {
+    
+    background-color: #dcdcdc;
+    height: 100px;
+    margin-top: 137px;
+    background-color: #dcdcdc;
+}
+
+
+#location {
+    width: 200px;
+    position: relative;
+    top: 20px;
+    left: 25px;
+}
+
+#divider {
+    position: relative;
+    top: 15px;
+}
+
+.services {
+    width: 500px;
+    word-spacing: 15px;
+    margin-top: 30px;
+    margin-left: 25px;
+
+}
+
+.terms {
+    float: right;
+    margin-right: 50px;
+    word-spacing: 15px;
+    margin-top: -20px;
+}
+
+.services > a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+
+
+}
+
+.terms > a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
