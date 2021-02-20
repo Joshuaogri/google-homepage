@@ -4,7 +4,6 @@ html, body {
     margin: 0;
 }
 
-
 .navbar { 
     height: 50px;
     margin-top: -45px;
@@ -35,7 +34,6 @@ html, body {
 
 }          
 
-
 .header > a {
     height:30px;    
     display: inline-block;
@@ -62,9 +60,6 @@ input {
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
     border-left: 1px solid transparent;
-   
-    
-
 }
 
 #searchicon {
@@ -78,10 +73,8 @@ input {
     border: 1px solid #dcdcdc;
     border-bottom-left-radius: 20px;
     border-top-left-radius:20px;
-    border-right: 0px solid transparent;
-    
+    border-right: 0px solid transparent;   
 }
-
 
 #voice {
 
@@ -98,13 +91,13 @@ input {
     
 }
 
-
 .clickbuttons {
     margin: 0 auto;
     width:900px;
     text-align: center;
     height: 100px;
 }
+
 .searchme {
     background-color: #F5F5F5;
     height: 35px;
@@ -117,7 +110,6 @@ input {
 }
 
 .searchme:hover {
-
     background-color: #F5F5F5;
     border: 1px solid #dcdcdc;
     border-radius: 3px;
@@ -136,13 +128,11 @@ input {
 }
 
 .footer {
-    
-    background-color: #dcdcdc;
+    color: #808080;
+    background-color: #F5F5F5;
     height: 100px;
     margin-top: 137px;
-    background-color: #dcdcdc;
 }
-
 
 #location {
     width: 200px;
@@ -154,6 +144,9 @@ input {
 #divider {
     position: relative;
     top: 15px;
+    border: none;
+    height: 1px;
+    background-color:#dcdcdc
 }
 
 .services {
@@ -162,6 +155,10 @@ input {
     margin-top: 30px;
     margin-left: 25px;
 
+}
+
+#review {
+    word-spacing: 1px;
 }
 
 .terms {
@@ -174,14 +171,9 @@ input {
 .services > a:hover {
     text-decoration: underline;
     cursor: pointer;
-
-
 }
 
 .terms > a:hover {
     text-decoration: underline;
     cursor: pointer;
 }
-
-
-
