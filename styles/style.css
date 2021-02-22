@@ -23,6 +23,7 @@ html, body {
     height:30px;    
     font-size: 14px;
     cursor: pointer;
+    text-decoration: none;
 }  
 
 .navbar { 
