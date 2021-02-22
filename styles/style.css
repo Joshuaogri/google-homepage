@@ -2,22 +2,43 @@
 html, body {
     color: 	#555555;
     margin: 0;
+    padding:0;
+    height: 100%;
+    overflow: hidden;
 }
 
+.header {
+    height:80px;
+}
+
+.navclass {
+    line-height: 42px;
+    margin-left: 1143px;
+    width: 120px;
+    height: 55px;
+    word-spacing: 20px;
+}
+
+.navclass > a {
+    height:30px;    
+    font-size: 14px;
+    cursor: pointer;
+}  
+
 .navbar { 
-    height: 50px;
-    margin-top: -45px;
-    float:right;
-    
-    
+    height: 48px;
+    line-height: 48px;
+    width: 80px;
+    margin-left: 1266px;
+    margin-top: -50px;
+    word-spacing: 10px;
 }
 
 .navbar > a {
-    height:30px;    
     display: inline-block;
-    margin-right: 24px;
+    height:45px;    
+    line-height: 45px;
     color: 	#555555;  
-    
 }
 
 .github {
@@ -26,79 +47,56 @@ html, body {
     border-radius: 15px;
 }
 
-.header {
-    display: inline-block;
-    margin-left: 1120px;
-    width: 130px;
-    height: 52px;
-
-}          
-
-.header > a {
-    height:30px;    
-    font-size: 14px;
-    display: inline-block;
-    padding: 12px;
-    cursor: pointer;
-}  
-
-.header > a:hover {
-    text-decoration: underline;
+.logos {
+    width: 100%;
+    height: 100px;
+    text-align: center;
 }
 
-.logos {
+.icon {
+    margin-left: 14px;
+    color: #A9A9A9;
+    font-size: 14px;
+}
+
+.searchbox {
+    border: 1px solid #dcdcdc;
     margin: 0 auto;
-    width: 300px;
+    border-radius: 25px;
+    width: 580px;
 }
 
 input {
     height: 40px;
-    width: 500px;
-    display: block;
-    margin: 0 auto;
-    border: 1px solid #dcdcdc;
+    width: 480px;
+    margin-left: 10px;
     outline: 0px solid transparent;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
-    border-left: 1px solid transparent;
+    border: 1px solid transparent;
 }
 
-#searchicon {
-    position: relative;
-    left: 380px;
-    top: 44px;
-    width:51px;
-    height: 42px;
-    line-height: 42px;
+.voice {
+    display: inline-block;
+    height:30px;
+    width:42px;
     text-align: center;
-    color: #A9A9A9;
-    border: 1px solid #dcdcdc;
-    border-bottom-left-radius: 20px;
-    border-top-left-radius:20px;
-    border-right: 0px solid transparent;   
-    font-size:14px;
-    font-weight: 400;
 }
 
-#voice {
+#voiceimg {
     position: relative;
-    left: 870px;
-    top: -45px;
-    width:51px;
-    height: 52px;
-    line-height: 52px;
+    top: 5px;
     text-align: center;
-    border: 0px solid transparent;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    cursor: pointer;
+}
+
+.forminput {
+    height: 60px;
+    width: 100%;
 }
 
 .clickbuttons {
     margin: 0 auto;
-    width:900px;
+    width:100%;
     text-align: center;
-    height: 100px;
+    height: 176px;
 }
 
 .searchme {
@@ -106,10 +104,9 @@ input {
     height: 35px;
     width: 130px;
     border: 0px solid transparent;
-    color: 	#555555;
+    color: #555555;
     cursor:pointer;
     border-radius: 3px;
-
 }
 
 .searchme:hover {
@@ -136,44 +133,39 @@ input {
 }
 
 .footer {
+    border: 1px solid #F5F5F5;
     color: #808080;
     background-color: #F5F5F5;
     height: 100px;
-    margin-top: 137px;
+    width: 100%;
+   
 }
 
 #location {
-    width: 200px;
-    position: relative;
-    top: 20px;
-    left: 25px;
+    display: inline-block;
+    width: 100%;
+    margin-left: 25px;
 }
+
 
 #divider {
-    position: relative;
-    top: 15px;
+    width: 100%;
     border: none;
     height: 1px;
-    background-color:#dcdcdc
+    background-color:#dcdcdc;
+    margin-top: -1px;
 }
 
-.services {
-    width: 500px;
-    word-spacing: 15px;
-    margin-top: 30px;
-    margin-left: 25px;
-
-}
-
-#review {
-    word-spacing: 1px;
-}
-
-.terms {
+.terms > a {
     float: right;
-    margin-right: 50px;
-    word-spacing: 15px;
-    margin-top: -20px;
+    margin-right: 30px;
+    margin-top: 7px;
+}
+
+.services > a {
+    float: left;
+    margin-left: 25px;
+    margin-top: 7px;
 }
 
 .services > a:hover {
@@ -184,4 +176,73 @@ input {
 .terms > a:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+/* Handles browsers of certain max-width(o) */
+@media screen and (max-width: 1326px) {
+    .navclass {
+        margin-left: 1110px;
+    }
+
+    .navbar { 
+        margin-left: 1230px;
+    }
+
+    .footer {
+        margin-top: 1px;
+    }
+}
+
+
+@media screen and (max-width: 1366px) and (min-height: 654px) {
+    .footer {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 1366px) and (max-height: 609px) {
+    .footer {
+        margin-top: -28px;
+    }
+}
+
+/* handheld mobiles*/
+@media only screen and (max-width: 600px) {
+    body {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .navclass {
+        margin-left:60%;
+    }
+
+    .navbar { 
+        margin-left:85%;
+    }
+    
+    input {
+        width: 50%;
+    }
+    
+    .searchbox {
+        width: 400px;
+
+    }
+
+    .clickbuttons {
+        height:60px;
+        margin-top: -50px;
+    }
+
+    .voice {
+        margin-left: 90px;
+    }
+    
+    .footer {
+        height: 160px;
+        margin-top: 50px;
+
+    }
+
+    
 }
