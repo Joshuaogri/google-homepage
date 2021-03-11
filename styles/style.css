@@ -308,3 +308,15 @@ input {
         margin-top: 5px;
     }      
 }
+
+@media screen and (max-height: 450px) {
+    .forminput {
+        margin-top:65px
+    }
+    .searchme {
+        margin-top: 20px;
+    }
+    #lang {
+        margin-top: 10px;
+    }  
+}
